@@ -36,7 +36,10 @@ function Comments(props) {
 
   const getAllComments = () => {
     fetch('/api/comments/' + eventId)
-      .then((res) => res.json())
+      .then((res) => {
+        console.log(res);
+        res.json();
+      })
       .then((data) => {
         setComments(data.comments);
       });
