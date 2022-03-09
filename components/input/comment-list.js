@@ -2,7 +2,6 @@ import classes from './comment-list.module.css';
 
 function CommentList(props) {
   const { items, isLoading } = props;
-  console.log(items, isLoading);
 
   return (
     <ul className={classes.comments}>

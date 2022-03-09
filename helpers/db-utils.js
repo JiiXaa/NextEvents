@@ -4,6 +4,7 @@ export async function connectDatabase() {
   const client = await MongoClient.connect(
     'mongodb+srv://JiiXaa:Sarunias100@cluster0.s68er.mongodb.net/events?retryWrites=true&w=majority'
   );
+  console.log(client);
 
   return client;
 }

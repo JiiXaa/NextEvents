@@ -58,7 +58,6 @@ function FilteredEventsPage(props) {
 
   const numYear = +filteredYear;
   const numMonth = +filteredMonth;
-  console.log(numMonth);
 
   pageHeadData = (
     <Head>
