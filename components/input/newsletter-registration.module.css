@@ -18,8 +18,8 @@
 }
 
 .newsletter button {
-  background-color: #03be9f;
-  border: 1px solid #03be9f;
+  background-color: #ff6dbd;
+  border: 1px solid #ff6dbd;
   border-radius: 6px;
   color: #dafff7;
   border-top-left-radius: 0;
@@ -30,8 +30,8 @@
 
 .newsletter button:hover,
 .newsletter button:active {
-  background-color: #02afa1;
-  border-color: #02afa1;
+  background-color: #ff88c9;
+  border-color: #ff88c9;
 }
 
 .control {

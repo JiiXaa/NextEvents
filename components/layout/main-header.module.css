@@ -5,7 +5,7 @@
   align-items: baseline;
   padding: 1rem 10%;
   height: 5rem;
-  background-color: #202020;
+  background-color: #00213f;
 }
 
 .logo {
@@ -16,17 +16,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #94fdfd;
 }
 
 .logo a {
   text-decoration: none;
-  color: #94fdfd;
+  color: #ff6dbd;
 }
 
 .navigation a {
   text-decoration: none;
-  color: #74dacc;
+  color: #ff6dbd;
   font-size: 1rem;
 }
 

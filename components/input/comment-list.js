@@ -8,7 +8,7 @@ function CommentList(props) {
     <ul className={classes.comments}>
       {/* Render list of comments - fetched from API */}
       {isLoading ? (
-        <h1>Loading</h1>
+        <p>Loading</p>
       ) : (
         items.map((item) => (
           <li key={item._id}>

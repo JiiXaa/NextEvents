@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  color: #aefff8;
+  color: #ce3c8c;
 }
 
 .item span {
@@ -13,7 +13,7 @@
 
 .icon {
   margin-right: 1rem;
-  color: #18e0d0;
+  color: #ff6dbd;
 }
 
 .icon svg {

@@ -19,7 +19,7 @@ function FilteredEventsPage(props) {
   const fetcher = (url) => fetch(url).then((res) => res.json());
 
   const { data, error } = useSWR(
-    'https://nextjs-course-49e77-default-rtdb.europe-west1.firebasedatabase.app/events.json',
+    'https://nextevents-726c5-default-rtdb.europe-west1.firebasedatabase.app/events.json',
     fetcher
   );
 
