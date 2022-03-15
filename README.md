@@ -10,3 +10,5 @@ NextJS built-in static & server rendering helped with SEO and Web Developing exp
 
 ## All data stored in MongoDB
 with help of Mongoose JS schema.
+
+[Live Demo](https://bit.ly/next-events-app)
